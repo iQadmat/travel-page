@@ -170,7 +170,7 @@ video {
   color: #1694fc;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .landing_page,
   .landing_page header {
     padding: 50px;
@@ -192,5 +192,18 @@ video {
 
   .social li a:hover {
     transform: scale(0.5) translateY(-15px);
+  }
+}
+
+@media (max-width: 576px) {
+  .content h1 {
+    font-size: 3em;
+  }
+  .content h2 {
+    font-size: 2em;
+  }
+
+  .content p {
+    max-width: 400px;
   }
 }
